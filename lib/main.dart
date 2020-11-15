@@ -12,7 +12,6 @@ class MyApp extends StatefulWidget{
 }
 
 class _State extends State<MyApp>{
-  String _value = "Hello, World!";
   @override
   Widget build(BuildContext context){
     return new Scaffold(
@@ -24,7 +23,7 @@ class _State extends State<MyApp>{
         child: new Center(
           child: new Column(
             children: <Widget>[
-              new Text(_value)
+              new Text("Hello, World!")
             ]
           ),
         )
